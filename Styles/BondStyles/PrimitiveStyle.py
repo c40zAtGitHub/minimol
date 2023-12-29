@@ -6,6 +6,7 @@ class PrimitiveStyle(BaseStyle):
         super().__init__()
         self.radius = radius
         self.color = np.array([0.5,0.5,0.5])
+        self.resolution = 16
 
 
     
