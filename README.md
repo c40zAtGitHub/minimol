@@ -1,11 +1,20 @@
-minimol is a mini-molecular viewer that is designed in a python friendly manner
+minimol is a mini-molecular viewer designed python-friendly.
+It aims to grant small GUI programs the ability to display molecular structure.
+It also supports interactive programming
+Thanks to vispy, it can take advantage of GPU to render molecular structure.
 
-It is (of course and expected to be) inferior to the product level molecular viewers such as GaussView, Avogadro, and VMD
+Alpha 0.2 Note:
+To get minimol running, simply install vispy and run the examples/dispaly molecule/sample_run.py
+Basic mouse operations for molecular viewer:
 
-HOWEVER, it is more friendly to developing an interactive program in python.
+LMB on atom - select/deselect one atom
+LMB on blank space - deselect all atoms
+Ctrl + LMB on atom - select multiple atoms
+Scroll - zoom in/out
+LMB + drag - rotate view
 
-With the support of vispy, an OpenGL based library, it can take advantage of GPU to a certain extent.
+Alpha 0.1 Note:
+For current version, minimol is usable.
 
-For current version, minimol aims simply at being "usable"
 
-To get minimol running, simply install vispy and run the sample_run.py
+
